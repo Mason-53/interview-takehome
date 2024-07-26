@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: prep_rugs_usa_links
+    description: Prepared link data.
+    columns:
+      - name: card_links
+        tests:
+          - not_null
