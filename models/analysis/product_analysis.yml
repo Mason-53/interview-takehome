@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: product_analysis
+    description: |
+      Aggregates the average profit margin by product origin.
