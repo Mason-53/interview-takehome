@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: marketing_analysis
+    description: |
+      Aggregates page and card views by parent product category and color.
