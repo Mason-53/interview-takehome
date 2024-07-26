@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_rugs_usa_pads_upsell
+    description: Raw pad upsell data.
+    columns:
+      - name: pad_id
+        tests:
+          - not_null
+      - name: p_id
+        tests:
+          - not_null
+      - name: variant
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_rugs_usa_color_map
+    description: Raw color mapping data.
+    columns:
+      - name: p_id
+        tests:
+          - not_null
+      - name: color_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_rugs_usa_category_map
+    description: Raw category data.
+    columns:
+      - name: p_id
+        tests:
+          - not_null
+      - name: category_id
+        tests:
+          - not_null

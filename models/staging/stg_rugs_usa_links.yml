@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_rugs_usa_links
+    description: Raw links data.
+    columns:
+      - name: card_links
+        tests:
+          - not_null
